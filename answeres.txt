@@ -1,0 +1,21 @@
+.To make folder hidden, add a dot (.) at the beginning of the name.
+  mkdir .foldername
+                          ....                        
+*to view a hidden folder just type(ls -a) in the directory we want.
+  cd "the directory we need" 
+  Ls -a
+                   
+     
+*we can use the -p flag with mkdir command.to make multiple nested directories
+
+
+mkdir -p  hyf/week1/commandline.txt
+                     
+
+
+
+
+*How do I append a message to a file, without a newline character
+
+
+echo -n "text here" >> file.txt
